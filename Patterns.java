@@ -9,7 +9,20 @@ public class Patterns{
             star += "**";
         }
     }
+
+    public static void triangle(int rows){
+        int row = 0;
+        String text = "";
+         while (row < rows){
+             row ++;
+             int row2 = 0;
+            while(row2 < rows){
+                System.out.print(row);
+            }
+        }
+    }
     public static void main(String[] args){
          stars(7);
+         triangle(9);
     }
 }
